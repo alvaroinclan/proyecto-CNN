@@ -1,4 +1,4 @@
-# 🔬 Clasificación de Cáncer de Pulmón y Colon con Deep Learning y LBP
+#  Clasificación de Cáncer de Pulmón y Colon con Deep Learning y LBP
 
 **Trabajo Final — Machine Learning II**
 
@@ -50,22 +50,20 @@ Imágenes LC25000 (768×768)
 ## Estructura del proyecto
 
 ```
-Trabajo Final ML II/
+Repositorio/
 ├── redimensionar_imagenes.py          # Resize 768×768 → 64×64
 ├── extraer_lbp_features.py            # Extracción LBP por canal RGB
 ├── entrenar_cnn.py                    # Entrenamiento CNN básica
 ├── entrenar_resnet.py                 # Entrenamiento ResNet50
 ├── entrenar_inceptionresnetv2.py      # Entrenamiento InceptionResNetV2
-├── Informe_resumen.md                 # Informe detallado del trabajo
-├── Paper objetivo.pdf                 # Paper replicado (Alsubai, 2024)
-├── Paper explicativo dataset.pdf      # Documentación del dataset LC25000
-├── lung_colon_image_set/              # Dataset original (768×768)
-├── lung_colon_image_set_64x64/        # Dataset redimensionado (64×64)
-├── lung_colon_image_set_64x64_lbp/    # Dataset con features LBP
-├── resultados_cnn/                    # Checkpoints, métricas e historial CNN
-├── resultados_resnet/                 # Checkpoints, métricas e historial ResNet50
-└── resultados_inceptionresnetv2/      # Checkpoints, métricas e historial InceptionResNetV2
+├── Informe.pdf                        # Informe final del trabajo (PDF)
+├── Informe_resumen.md                 # Informe detallado en Markdown
+└── README.md                          # Este archivo
 ```
+
+> **Nota:** Las imágenes del dataset (bases de datos `lung_colon_image_set/`, `lung_colon_image_set_64x64/`, `lung_colon_image_set_64x64_lbp/`) y los resultados de los modelos (`resultados_cnn.zip`, `resultados_resnet.zip`, `resultados_inceptionresnetv2.zip`) **no se han subido a GitHub** por ser archivos demasiado pesados.
+
+---
 
 ---
 
